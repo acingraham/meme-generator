@@ -19,17 +19,18 @@ canvas {
     display: none;
 }
 
-img {
-  width: 100%;
-}
-
 #capture {
   position: relative;
+}
+
+#capture > * {
+  width: 100%;
 }
 
 #top-text, #bottom-text {
   position: absolute;
   text-align: center;
+  font-size: 2em;
 }
 
 #bottom-text {
