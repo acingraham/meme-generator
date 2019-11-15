@@ -9,6 +9,7 @@ $("#download").click(function() {
     link.href = image;
     link.click();
   });
+  
 });
 
 $("#top-input").keydown(function() {
