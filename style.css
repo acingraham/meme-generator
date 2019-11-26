@@ -19,11 +19,11 @@ canvas {
     display: none;
 }
 
-#capture {
+#output {
   position: relative;
 }
 
-#capture > * {
+#output > * {
   width: 100%;
 }
 

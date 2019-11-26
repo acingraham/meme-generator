@@ -1,5 +1,5 @@
 $("#download").click(function() {
-  html2canvas(document.querySelector("#capture")).then(canvas => {
+  html2canvas(document.querySelector("#output")).then(canvas => {
     return document.body.appendChild(canvas);
   }).then(() => {
     var canvas = $("canvas")[0];
